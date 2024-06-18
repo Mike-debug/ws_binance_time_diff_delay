@@ -12,7 +12,7 @@ add_executable(ws_binance_time_diff_delay
 )
 
 target_include_directories(ws_binance_time_diff_delay PRIVATE ${CMAKE_SOURCE_DIR})
-target_include_directories(ws_binance_time_diff_delay PRIVATE "Path_to_/commonUtils")
+target_include_directories(ws_binance_time_diff_delay PRIVATE "C:/Users/Mike_Wei/CLionProjects/commonUtils")
 
 find_package(RapidJSON CONFIG REQUIRED)
 target_link_libraries(ws_binance_time_diff_delay PRIVATE rapidjson)
